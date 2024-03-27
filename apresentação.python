@@ -11,9 +11,9 @@ while(total > 0):
     print("VOCÊ DIGITOU" ,laal_str)
     laal = int(laal_str)
     print(total, "tentativas restantes")
-    certou = laal == NUN
-    maior  = laal > NUN
-    menor  = laal < NUN
+    certou = laal == RAI
+    maior  = laal > RAI
+    menor  = laal < RAI
 
     if(certou):
         total = 0
