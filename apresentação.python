@@ -1,0 +1,32 @@
+print("{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}")
+print("{{{{[[RAISSA]}}}}}")
+print("{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}")
+
+import random
+NUN = random.randrange(1,100)
+total = 10
+
+while(total > 0):
+    laal_str = input("DIGITE SEU NÚMERO: ")
+    print("VOCÊ DIGITOU" ,laal_str)
+    laal = int(laal_str)
+    print(total, "tentativas restantes")
+    certou = laal == NUN
+    maior  = laal > NUN
+    menor  = laal < NUN
+
+    if(certou):
+        total = 0
+    else:
+        if(maior):
+            print("Foi maior!")
+        elif(menor):
+            print("Foi menor!")
+           
+    total = total -1
+   
+if  (total == 0):
+   
+    print("[{[{[{[{[{[{[{[{[{[{GAME OVER}]}]}]}]}]}]}]}]}]}]}");
+    
+    print("O NÚMERO ERA", NUN)
